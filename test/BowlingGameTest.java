@@ -36,7 +36,6 @@ public class BowlingGameTest {
 		assertEquals(16,g.score());
 	}
 	
-	@Ignore("until we walk frame by frame")
 	@Test
 	public void testOneStrike() {
 		rollStrike();
